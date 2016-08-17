@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Add here" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DIy-3W-pgj">
+                                <rect key="frame" x="20" y="28" width="280" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mUK-cw-dSK">
+                                <rect key="frame" x="114" y="70" width="92" height="30"/>
+                                <color key="backgroundColor" red="0.92190152406692505" green="0.34859883785247803" blue="0.79680699110031128" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="92" id="s5I-Ti-KUy"/>
+                                </constraints>
+                                <color key="tintColor" red="0.099779647439999994" green="0.099779647439999994" blue="0.099779647439999994" alpha="0.87572737069999995" colorSpace="calibratedRGB"/>
+                                <size key="titleShadowOffset" width="10" height="10"/>
+                                <state key="normal" title="Add"/>
+                                <connections>
+                                    <action selector="buttonclicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4tz-Pv-gms"/>
+                                </connections>
+                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="20" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="5QK-km-ZS4">
+                                <rect key="frame" x="0.0" y="171" width="320" height="397"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" textLabel="I3h-Wy-nBT" rowHeight="20" style="IBUITableViewCellStyleDefault" id="Ljx-0p-gt6">
+                                        <rect key="frame" x="0.0" y="28" width="320" height="20"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Ljx-0p-gt6" id="ozj-fr-49k">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="19"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="I3h-Wy-nBT">
+                                                    <rect key="frame" x="15" y="0.0" width="290" height="19"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="4GY-QG-cJc"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="BmW-WX-c7w"/>
+                                </connections>
+                            </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="BUCKET LIST" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rn4-2T-EOG">
+                                <rect key="frame" x="0.0" y="132" width="320" height="40"/>
+                                <color key="backgroundColor" red="0.46547796086824922" green="1" blue="0.8978733300161672" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="mUK-cw-dSK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3Bo-Fj-4Dv"/>
+                            <constraint firstItem="mUK-cw-dSK" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="70" id="O6j-tc-9Jg"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="myButton" destination="mUK-cw-dSK" id="J6Y-r2-jOo"/>
+                        <outlet property="myTableview" destination="5QK-km-ZS4" id="5cp-6L-qbw"/>
+                        <outlet property="myTextField" destination="DIy-3W-pgj" id="UFB-wV-deC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="162" y="331"/>
+        </scene>
+    </scenes>
+</document>

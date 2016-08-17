@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDD6A6A91D63AC93006DAA33 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD6A6A81D63AC93006DAA33 /* main.m */; };
+		DDD6A6AC1D63AC93006DAA33 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD6A6AB1D63AC93006DAA33 /* AppDelegate.m */; };
+		DDD6A6AF1D63AC93006DAA33 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD6A6AE1D63AC93006DAA33 /* ViewController.m */; };
+		DDD6A6B21D63AC93006DAA33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDD6A6B01D63AC93006DAA33 /* Main.storyboard */; };
+		DDD6A6B51D63AC93006DAA33 /* BucketList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DDD6A6B31D63AC93006DAA33 /* BucketList.xcdatamodeld */; };
+		DDD6A6B71D63AC94006DAA33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDD6A6B61D63AC94006DAA33 /* Assets.xcassets */; };
+		DDD6A6BA1D63AC94006DAA33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDD6A6B81D63AC94006DAA33 /* LaunchScreen.storyboard */; };
+		DDD6A6C51D63B2C4006DAA33 /* BucketList+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD6A6C21D63B2C4006DAA33 /* BucketList+CoreDataProperties.m */; };
+		DDD6A6C61D63B2C4006DAA33 /* BucketList.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD6A6C41D63B2C4006DAA33 /* BucketList.m */; };
+		DDD6A6C91D63B2EA006DAA33 /* CoreDataStack.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD6A6C81D63B2EA006DAA33 /* CoreDataStack.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DDD6A6A41D63AC93006DAA33 /* BucketList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BucketList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDD6A6A81D63AC93006DAA33 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DDD6A6AA1D63AC93006DAA33 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DDD6A6AB1D63AC93006DAA33 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DDD6A6AD1D63AC93006DAA33 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DDD6A6AE1D63AC93006DAA33 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DDD6A6B11D63AC93006DAA33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDD6A6B41D63AC93006DAA33 /* BucketList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BucketList.xcdatamodel; sourceTree = "<group>"; };
+		DDD6A6B61D63AC94006DAA33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDD6A6B91D63AC94006DAA33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DDD6A6BB1D63AC94006DAA33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDD6A6C11D63B2C4006DAA33 /* BucketList+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BucketList+CoreDataProperties.h"; sourceTree = SOURCE_ROOT; };
+		DDD6A6C21D63B2C4006DAA33 /* BucketList+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BucketList+CoreDataProperties.m"; sourceTree = SOURCE_ROOT; };
+		DDD6A6C31D63B2C4006DAA33 /* BucketList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BucketList.h; sourceTree = SOURCE_ROOT; };
+		DDD6A6C41D63B2C4006DAA33 /* BucketList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BucketList.m; sourceTree = SOURCE_ROOT; };
+		DDD6A6C71D63B2EA006DAA33 /* CoreDataStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataStack.h; sourceTree = "<group>"; };
+		DDD6A6C81D63B2EA006DAA33 /* CoreDataStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataStack.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDD6A6A11D63AC93006DAA33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDD6A69B1D63AC93006DAA33 = {
+			isa = PBXGroup;
+			children = (
+				DDD6A6A61D63AC93006DAA33 /* BucketList */,
+				DDD6A6A51D63AC93006DAA33 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDD6A6A51D63AC93006DAA33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDD6A6A41D63AC93006DAA33 /* BucketList.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDD6A6A61D63AC93006DAA33 /* BucketList */ = {
+			isa = PBXGroup;
+			children = (
+				DDD6A6CA1D63B2F8006DAA33 /* CoreData */,
+				DDD6A6AA1D63AC93006DAA33 /* AppDelegate.h */,
+				DDD6A6AB1D63AC93006DAA33 /* AppDelegate.m */,
+				DDD6A6AD1D63AC93006DAA33 /* ViewController.h */,
+				DDD6A6AE1D63AC93006DAA33 /* ViewController.m */,
+				DDD6A6B01D63AC93006DAA33 /* Main.storyboard */,
+				DDD6A6B61D63AC94006DAA33 /* Assets.xcassets */,
+				DDD6A6B81D63AC94006DAA33 /* LaunchScreen.storyboard */,
+				DDD6A6BB1D63AC94006DAA33 /* Info.plist */,
+				DDD6A6B31D63AC93006DAA33 /* BucketList.xcdatamodeld */,
+				DDD6A6A71D63AC93006DAA33 /* Supporting Files */,
+			);
+			path = BucketList;
+			sourceTree = "<group>";
+		};
+		DDD6A6A71D63AC93006DAA33 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDD6A6A81D63AC93006DAA33 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDD6A6CA1D63B2F8006DAA33 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				DDD6A6C11D63B2C4006DAA33 /* BucketList+CoreDataProperties.h */,
+				DDD6A6C21D63B2C4006DAA33 /* BucketList+CoreDataProperties.m */,
+				DDD6A6C31D63B2C4006DAA33 /* BucketList.h */,
+				DDD6A6C41D63B2C4006DAA33 /* BucketList.m */,
+				DDD6A6C71D63B2EA006DAA33 /* CoreDataStack.h */,
+				DDD6A6C81D63B2EA006DAA33 /* CoreDataStack.m */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDD6A6A31D63AC93006DAA33 /* BucketList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDD6A6BE1D63AC94006DAA33 /* Build configuration list for PBXNativeTarget "BucketList" */;
+			buildPhases = (
+				DDD6A6A01D63AC93006DAA33 /* Sources */,
+				DDD6A6A11D63AC93006DAA33 /* Frameworks */,
+				DDD6A6A21D63AC93006DAA33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BucketList;
+			productName = BucketList;
+			productReference = DDD6A6A41D63AC93006DAA33 /* BucketList.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDD6A69C1D63AC93006DAA33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Karim;
+				TargetAttributes = {
+					DDD6A6A31D63AC93006DAA33 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = DDD6A69F1D63AC93006DAA33 /* Build configuration list for PBXProject "BucketList" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDD6A69B1D63AC93006DAA33;
+			productRefGroup = DDD6A6A51D63AC93006DAA33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDD6A6A31D63AC93006DAA33 /* BucketList */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDD6A6A21D63AC93006DAA33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDD6A6BA1D63AC94006DAA33 /* LaunchScreen.storyboard in Resources */,
+				DDD6A6B71D63AC94006DAA33 /* Assets.xcassets in Resources */,
+				DDD6A6B21D63AC93006DAA33 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDD6A6A01D63AC93006DAA33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDD6A6AF1D63AC93006DAA33 /* ViewController.m in Sources */,
+				DDD6A6C51D63B2C4006DAA33 /* BucketList+CoreDataProperties.m in Sources */,
+				DDD6A6C91D63B2EA006DAA33 /* CoreDataStack.m in Sources */,
+				DDD6A6B51D63AC93006DAA33 /* BucketList.xcdatamodeld in Sources */,
+				DDD6A6AC1D63AC93006DAA33 /* AppDelegate.m in Sources */,
+				DDD6A6A91D63AC93006DAA33 /* main.m in Sources */,
+				DDD6A6C61D63B2C4006DAA33 /* BucketList.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DDD6A6B01D63AC93006DAA33 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDD6A6B11D63AC93006DAA33 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DDD6A6B81D63AC94006DAA33 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDD6A6B91D63AC94006DAA33 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDD6A6BC1D63AC94006DAA33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DDD6A6BD1D63AC94006DAA33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDD6A6BF1D63AC94006DAA33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BucketList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.karim.BucketList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DDD6A6C01D63AC94006DAA33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BucketList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.karim.BucketList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDD6A69F1D63AC93006DAA33 /* Build configuration list for PBXProject "BucketList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDD6A6BC1D63AC94006DAA33 /* Debug */,
+				DDD6A6BD1D63AC94006DAA33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDD6A6BE1D63AC94006DAA33 /* Build configuration list for PBXNativeTarget "BucketList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDD6A6BF1D63AC94006DAA33 /* Debug */,
+				DDD6A6C01D63AC94006DAA33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DDD6A6B31D63AC93006DAA33 /* BucketList.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DDD6A6B41D63AC93006DAA33 /* BucketList.xcdatamodel */,
+			);
+			currentVersion = DDD6A6B41D63AC93006DAA33 /* BucketList.xcdatamodel */;
+			path = BucketList.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DDD6A69C1D63AC93006DAA33 /* Project object */;
+}
